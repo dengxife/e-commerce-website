@@ -1,7 +1,9 @@
 package com.gary.ecommercewebsite.dao;
 
 import com.gary.ecommercewebsite.pojo.User;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 

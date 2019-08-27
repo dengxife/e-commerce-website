@@ -12,5 +12,9 @@ servlet:
   context-path: /eshop
 
 mybatis:
-  mapper-locations: classpath*:mapping/*.xml
-  type-aliases-package: com.gary.ecommercwwebsite.pojo
+  mapper-locations: classpath*:mappers/*.xml
+  type-aliases-package: com.gary.ecommercewebsite.pojo
+
+logging:
+  level:
+    com.gary.ecommercewebsite: info
